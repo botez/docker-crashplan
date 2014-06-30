@@ -35,5 +35,5 @@ EXPOSE 4242 4243
 
 # Add Madsonic to runit
 RUN mkdir /etc/service/crashplan
-ADD crashplan_start.sh /etc/service/crashplan/run
+ADD crashplan.sh /etc/service/crashplan/run
 RUN chmod +x /etc/service/crashplan/run
